@@ -1,14 +1,15 @@
 import {Link} from 'react-router-dom';
 import Container from './Container';
+import styles from './Navbar.module.css'
 
 export default function Navbar() {
     return (
-        <div>
+        <div className={styles.navbar}>
             <Container>
-                <ul>
-                    <li><Link to="/abautme">Abaut Me</Link></li>
-                    <li><Link to="/projects">Projects</Link></li>
-                    <li><Link to="/experiences">Experiences</Link></li>
+                <ul className={styles.list}>
+                    <li className={styles.item}><Link to="/abautme">Abaut Me</Link></li>
+                    <li className={styles.item}><Link to="/projects">Projects</Link></li>
+                    <li className={styles.item}><Link to="/experiences">Experiences</Link></li>
                 </ul>
             </Container>       
         </div>
