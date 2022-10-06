@@ -5,6 +5,7 @@ import Experiences from './components/pages/Experiences'
 import AbautMe from './components/pages/AbautMe'
 import './App.css';
 import Container from './components/layouts/Container'
+import Footer from './components/layouts/Footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/projects" element={<Projects/>}/>
         </Routes>
       </Container>
+      <Footer/>
     </Router>  
   )
 }
