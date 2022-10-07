@@ -1,10 +1,14 @@
+import styles from './Aside.module.css'
+
 export default function Aside() {
     return(
-    <aside>
-        <h2>Traços de personalidade</h2>
-        <h2>Ideais</h2>
-        <h2>Vínculos</h2>
-        <h2>Fraquezas</h2>
+    <aside className={styles.aside}>
+        <ul>
+            <li>Traços de personalidade</li>
+            <li>Ideais</li>
+            <li>Vínculos</li>
+            <li>Fraquezas</li>
+        </ul>
     </aside>
     )
 }

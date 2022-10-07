@@ -1,0 +1,10 @@
+.aside ul {
+    list-style: none;
+}
+
+.aside ul li{
+    padding: 5px;
+    text-align: center;
+    border: 1.5em solid;
+    border-image: url("../../img/borders/borda_status.png") 25%;
+}

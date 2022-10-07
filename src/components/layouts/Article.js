@@ -3,12 +3,14 @@ import styles from './Article.module.css'
 export default function Article() {
     return(
     <article className={styles.article}>
-        <h2>Classe de Armadura</h2>
-        <h2>Iniciativa</h2>
-        <h2>Deslocamento</h2>
-        <h2>Pontos de vida máximos</h2>
-        <h2>Pontos de vida temporários</h2>
-        <h2>Ataques e Conjuração</h2>
+        <ul>
+            <li>Classe de Armadura</li>
+            <li>Iniciativa</li>
+            <li>Deslocamento</li>
+            <li>Pontos de vida máximos</li>
+            <li>Pontos de vida temporários</li>
+            <li>Ataques e Conjuração</li>
+        </ul>
     </article>
     )
 }
