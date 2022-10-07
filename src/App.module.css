@@ -1,5 +1,10 @@
 .app {
-  background-color: #7D645A;
+  background-image: url('./img/background.jpg');
+  background-color: #222;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
   margin: 0;
   padding: 0;
   

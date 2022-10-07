@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0.2em;
-    background-color: #1f120d;
+    background-color: #CCA374;
     border-radius: 0.5em;
     margin: 0 1em;
 }
@@ -19,12 +19,17 @@
 
 .item a {
     text-decoration: none;
-    color: white;
+    color: #8d2416;
     font-family: 'Silkscreen', cursive;
-    
+    font-size: 1.2em;
 }
 
 .item a:hover {
-    color: #8d2416;
+    color: white;
     transition: 0.7s;
+}
+
+.img {
+    color: white;
+    width:100px;
 }

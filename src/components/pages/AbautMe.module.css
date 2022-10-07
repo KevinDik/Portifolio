@@ -1,6 +1,14 @@
 .abautme {
-    border-left: 1px solid #7D4934;
-    border-right: 1px solid #7D4934;
     margin: 0;
     padding: 1.5em;
+    background-color: #735C41;
+    border-radius: 0.1em;
+    width: 1200px;
+}
+
+.abautme h2,
+.abautme ul {
+    color: white;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 0.8em;
 }

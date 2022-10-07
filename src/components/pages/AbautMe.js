@@ -10,10 +10,10 @@ export default function AbautMe() {
     return (
         <div className={styles.abautme}>
             <Audios position="0"/>
-            <Header/>
-            <Section/>
-            <Article/>
-            <Aside/>
+            <Header customClass="header_text"/>
+            <Section customClass="header_text"/>
+            <Article customClass="header_text"/>
+            <Aside customClass="header_text"/>
         </div>
         )
 }
