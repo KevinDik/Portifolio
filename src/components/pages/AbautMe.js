@@ -4,9 +4,11 @@ import Section from "../layouts/Section"
 import Article from "../layouts/Article"
 import Aside from "../layouts/Aside"
 
+import styles from "./AbautMe.module.css"
+
 export default function AbautMe() {
     return (
-        <div>
+        <div className={styles.abautme}>
             <Audios position="0"/>
             <Header/>
             <Section/>

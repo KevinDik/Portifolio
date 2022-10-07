@@ -1,7 +1,8 @@
 export default function Header() {
     return (
         <header>
-            Aqui sera o header
+            <h2>Nome: </h2>
+            <p>Classe: </p>
         </header>
     )
 }
