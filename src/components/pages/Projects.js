@@ -1,10 +1,18 @@
 import Audios from "../music/Audios"
+import styles from "./Projects.module.css"
+import ProjectCard from "../cards/ProjectCard"
 
 export default function Projects () {
     return (
-        <div>
+        <div className={styles.projects}>
             Projetos
             <Audios position="2"/>
+            <ProjectCard
+            name={"Nome do projeto"}
+            id={""}
+            data={"data de inicio"}
+            progress={"Progresso"}
+            />
         </div>
     )
 }

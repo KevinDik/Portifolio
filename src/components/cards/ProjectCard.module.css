@@ -1,0 +1,28 @@
+.projectCard {
+    padding: 1em;
+    border: 1px solid #8d2416;
+    border-radius: 5px;
+    width: 25%;
+    margin: 1em;
+}
+
+.projectCard h4 {
+    background-color: #8d2416;
+    padding: 0.4em;
+    margin-bottom: 1em;
+    color: white;
+    font-family: 'Silkscreen', sans-serif;
+}
+
+.projectCard p {
+    margin-bottom: 1em;
+    color: #8d2416;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 12px;
+}
+
+.projectCard p span {
+    font-weight: bolder;
+    color: white;
+}
+

@@ -22,6 +22,7 @@
     color: #8d2416;
     font-family: 'Silkscreen', cursive;
     font-size: 1.2em;
+    text-shadow: 1px 1px #ccc;
 }
 
 .item a:hover {
@@ -31,5 +32,6 @@
 
 .img {
     color: white;
-    width:100px;
+    width:80px;
+    padding: 5px 20px;
 }
