@@ -1,3 +1,4 @@
+import Buttons from '../forms/Buttons'
 import styles from './ProjectCard.module.css'
 import { Link } from 'react-router-dom'
 
@@ -13,7 +14,7 @@ export default function ProjectCard ({name, id, data, progress}) {
             </p>
             <div>
                 <Link to={'/project/' + id}>
-                    <button>Visualizar detalhes</button>
+                    <Buttons text="Visualizar detalhes"/>
                 </Link>
             </div>
         </div>

@@ -6,7 +6,7 @@ export default function Projects () {
     return (
         <div className={styles.projects}>
             Projetos
-            <Audios position="2"/>
+            <Audios position="3"/>
             <ProjectCard
             name={"Nome do projeto"}
             id={""}

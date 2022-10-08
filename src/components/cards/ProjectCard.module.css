@@ -1,16 +1,19 @@
 .projectCard {
     padding: 1em;
-    border: 1px solid #8d2416;
+    border: 1px solid #cca374;
     border-radius: 5px;
     width: 25%;
     margin: 1em;
+    box-shadow: 2px 2px #cca374;
 }
 
 .projectCard h4 {
-    background-color: #8d2416;
+    background-color: #cca374;
+    border-radius: 5px;
+    text-align: center;
     padding: 0.4em;
     margin-bottom: 1em;
-    color: white;
+    color: #8d2416;
     font-family: 'Silkscreen', sans-serif;
 }
 

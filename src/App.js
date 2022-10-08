@@ -1,6 +1,7 @@
 import {Routes, Route, BrowserRouter as Router } from 'react-router-dom'
 import Navbar from './components/layouts/Navbar'
 import Projects from './components/pages/Projects'
+import Home from './components/pages/Home'
 import Experiences from './components/pages/Experiences'
 import AbautMe from './components/pages/AbautMe'
 import styles from './App.module.css'
@@ -14,6 +15,7 @@ function App() {
         <Navbar/>
         <Container customClass="min-heigth">
           <Routes>
+            <Route path="/" element={<Home/>}/>
             <Route path="/abautme" element={<AbautMe/>}/>
             <Route path="/experiences" element={<Experiences/>}/>
             <Route path="/projects" element={<Projects/>}/>

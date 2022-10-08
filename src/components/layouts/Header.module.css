@@ -10,14 +10,14 @@
     columns: 3;
 }
 
-.header ul li{
+.header ul li {
     padding: 10px;
     text-align: center;
     border: 1.5em solid;
     border-image: url("../../img/borders/borda_status.png") 25%;
 }
 
-.header div h2{
+.header div h2 {
     text-align: center;
     border: 1.5em solid;
     border-image: url("../../img/borders/borda_nome.png") 25%;
