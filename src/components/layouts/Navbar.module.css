@@ -1,16 +1,17 @@
 .navbar {
     display: flex;
-    justify-content: space-between;
     padding: 0.2em;
     background-color: #CCA374;
     border-radius: 0.5em;
     margin: 0 1em;
+    text-align: center;
 }
 
 .list {
     display: flex;
     list-style: none;
     align-items: center;
+    text-align: center;
 }
 
 .item {
