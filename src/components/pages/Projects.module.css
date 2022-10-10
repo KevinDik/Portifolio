@@ -5,3 +5,30 @@
     border-radius: 0.1em;
     width: 1200px;
 }
+
+.projects ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 2px;
+}
+
+.projects ul li {
+    display: inline;
+    padding: 1em;
+    border: 1px solid white;
+    background-color: #8d2416;
+    font-family: 'Silkscreen', sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.projects ul li a {
+    
+    transition: 0.5s;
+    color: white;
+}
+
+.projects ul li a:hover{
+    color: black;
+}
