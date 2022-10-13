@@ -1,6 +1,6 @@
-import Container from '../layouts/Container'
 import {useState, useEffect} from 'react'
 import ExperiencesCard from '../cards/ExperiencesCard'
+import styles from './Data.module.css'
 
 export default function Experience () {
 
@@ -24,18 +24,16 @@ export default function Experience () {
         )
       }, [])
       return (
-        <Container customClass="start">
-            <div>
-                <h1>Experiences</h1>
-                {experience.length > 0 &&
-                experience.map((experience) => (
-                    <ExperiencesCard
-                    key={experience.id}
-                    nome={experience.nome}
-                    periodo={experience.periodo}
-                    fucoes={experience.fucoes}/>
-                ))}
-            </div>
-        </Container>
+          <div className={styles.data}>
+              <h1>Experiences</h1>
+              {experience.length > 0 &&
+              experience.map((experience) => (
+                  <ExperiencesCard
+                  key={experience.id}
+                  nome={experience.nome}
+                  periodo={experience.periodo}
+                  fucoes={experience.fucoes}/>
+              ))}
+          </div>
       )
 }

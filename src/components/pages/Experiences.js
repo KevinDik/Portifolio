@@ -4,11 +4,11 @@ import Experience from "../data/Experience"
 
 export default function Experiences () {
     return (
-        <Container customClass="paper">
-            <div>
-                <Audios position="2"/>
+        <div>
+            <Audios position="2"/>
+            <Container customClass="paper">
                 <Experience/>
-            </div>
-        </Container>
+            </Container>
+        </div>
     )
 }

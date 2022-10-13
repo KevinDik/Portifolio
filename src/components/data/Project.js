@@ -1,6 +1,6 @@
-import Container from '../layouts/Container'
 import {useState, useEffect} from 'react'
 import ProjectCard from '../cards/ProjectCard'
+import styles from './Data.module.css'
 
 export default function Project () {
 
@@ -25,20 +25,18 @@ export default function Project () {
       }, [])
 
     return (
-        <Container customClass="start">
-            <div>
-                <h1>My Projects</h1>
-                {project.length > 0 &&
-                project.map((project) => (
-                    <ProjectCard
-                    key={project.id}
-                    nome={project.nome}
-                    linguagem={project.linguagem}
-                    descricao={project.descricao}
-                    ano_construcao={project.ano_construcao}
-                    ferramentas={project.ferramentas}/>
-                ))}    
-            </div>
-        </Container>
+          <div className={styles.data}>
+              <h1>My Projects</h1>
+              {project.length > 0 &&
+              project.map((project) => (
+                  <ProjectCard
+                  key={project.id}
+                  nome={project.nome}
+                  linguagem={project.linguagem}
+                  descricao={project.descricao}
+                  ano_construcao={project.ano_construcao}
+                  ferramentas={project.ferramentas}/>
+              ))}    
+          </div>
         )
 }
