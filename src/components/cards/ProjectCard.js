@@ -1,13 +1,34 @@
 import styles from './Cards.module.css'
 
-export default function ProjectCard ({nome, linguagem, descricao, ano_construcao, ferramentas}) {
+export default function ProjectCard () {
     return(
         <div className={styles.card}>
-            <h4>{nome}</h4>
-            <p><span>Linguagem: </span>{linguagem}</p>
-            <p><span>Descrição: </span> {descricao}</p>
-            <p><span>Ano de publicação: </span> {ano_construcao}</p>
-            <p><span>Ferramentas: </span>{ferramentas}</p>
+            <h1>Projects</h1>
+            <ul>
+                <li>
+                    <h3>Projeto</h3>
+                    <h3>Linguagem</h3>
+                    <h3>Descrição</h3>
+                    <h3>Ano construção</h3>
+                    <h3>Ferramentas</h3>
+                </li>
+
+                <li>
+                    <h3>Projeto</h3>
+                    <h3>Linguagem</h3>
+                    <h3>Descrição</h3>
+                    <h3>Ano construção</h3>
+                    <h3>Ferramentas</h3>
+                </li>
+
+                <li>
+                    <h3>Projeto</h3>
+                    <h3>Linguagem</h3>
+                    <h3>Descrição</h3>
+                    <h3>Ano construção</h3>
+                    <h3>Ferramentas</h3>
+                </li>
+            </ul>
         </div>
         )
 }

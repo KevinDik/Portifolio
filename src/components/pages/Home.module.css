@@ -1,6 +1,6 @@
 .home {
     text-align: center;
-    position: relative;
+    transition: 0.5s;
 }
 
 .home h1 {    
@@ -11,10 +11,11 @@
 }
 
 .home img {
-    margin: 5px;
-    text-align: center;
+    max-width:100%;
+	height:auto;
+}
+
+.home div {
+    border: 2px solid red;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: ridge;
 }

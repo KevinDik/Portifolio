@@ -5,7 +5,6 @@ import Home from './components/pages/Home'
 import Experiences from './components/pages/Experiences'
 import AbautMe from './components/pages/AbautMe'
 import styles from './App.module.css'
-import Container from './components/layouts/Container'
 import Footer from './components/layouts/Footer'
 
 function App() {
@@ -13,14 +12,12 @@ function App() {
     <div className={styles.app}>
       <Router>
         <Navbar/>
-        <Container customClass="min-heigth">
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/abautme" element={<AbautMe/>}/>
             <Route path="/experiences" element={<Experiences/>}/>
             <Route path="/projects" element={<Projects/>}/>
           </Routes>
-        </Container>
         <Footer/>
       </Router> 
     </div> 
