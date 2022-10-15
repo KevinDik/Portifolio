@@ -13,11 +13,11 @@
             "scaleInEditor": 1
         },
         "city_map.tmx": {
-            "scale": 0.75,
-            "selectedLayer": 4,
+            "scale": 2,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 425.3333333333333,
-                "y": 205.33333333333331
+                "x": 611,
+                "y": 258.5
             }
         }
     },
