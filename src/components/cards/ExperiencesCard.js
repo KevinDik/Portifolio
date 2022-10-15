@@ -1,6 +1,6 @@
 import styles from './Cards.module.css'
 
-export default function ExperiencesCard({nome, periodo, funcoes}) {
+export default function ExperiencesCard() {
     
     return (
         <div className={styles.card}>
