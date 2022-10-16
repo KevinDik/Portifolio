@@ -8,10 +8,22 @@
 
 .section ul li {
     font-size: 1em;
+    display: flex;
+    align-items: center;
 }
 
 .section ul li span {
     text-align: right; 
     color: #cca400;
     font-size: 0.9em; 
+    align-items: center
+}
+
+.icons {
+    background-color: white;
+    max-width: 30px;
+    max-height: 30px;
+    border: 2px solid #cca374;
+    border-radius: 60px;
+    margin: 5px;
 }

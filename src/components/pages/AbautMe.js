@@ -14,9 +14,9 @@ export default function AbautMe() {
                 <Header customClass="header_text"/>
                 <div className={styles.columns}>
                     <Section customClass="header_text"/>
-                    <Article customClass="header_text"/>
-                    <Aside customClass="header_text"/>
+                    <Article customClass="header_text"/>     
                 </div>
+                <Aside customClass="header_text"/>
             </Paper>
         </div>
         )
