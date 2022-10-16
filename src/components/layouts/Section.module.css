@@ -12,10 +12,15 @@
     align-items: center;
 }
 
+.section h2 {
+    text-align: center;
+}
+
 .section ul li span {
     text-align: right; 
     color: #cca400;
-    font-size: 0.9em; 
+    font-size: 1.2em; 
+    font-family: monospace;
     align-items: center
 }
 

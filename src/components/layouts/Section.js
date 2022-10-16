@@ -9,6 +9,7 @@ import carisma from '../../img/icons/carisma.png'
 export default function Section() {
     return(
     <section className={styles.section}>
+        <h2>Atributos</h2>
         <ul>
             <li><img className={styles.icons} src={forca} alt="Icone de força"/>Força: <span>11</span></li>
             <li><img className={styles.icons} src={destreza} alt="Icone de destreza"/>Destreza: <span>15</span></li>

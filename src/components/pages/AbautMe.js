@@ -9,14 +9,12 @@ import Paper from "../layouts/Paper"
 export default function AbautMe() {
     return (
         <div className={styles.abautme}>
-            <Audios position="1"/>
+            <Audios position="0"/>
             <Paper customClass="fadeIn">
-                <Header customClass="header_text"/>
-                <div className={styles.columns}>
-                    <Section customClass="header_text"/>
-                    <Article customClass="header_text"/>     
-                </div>
-                <Aside customClass="header_text"/>
+                <Header/>
+                <Section/>
+                <Article/>     
+                <Aside/>
             </Paper>
         </div>
         )

@@ -4,8 +4,9 @@
     font-family: 'Silkscreen', cursive;
 }
 
-.columns {
+.abautme ul {
     columns: 2;
-    align-items: center;
-    display: flex;
+    margin: 0 30px;
+    padding: 5px 10px;
+    border-bottom: 1px solid #c6c6c6;
 }

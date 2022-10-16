@@ -7,10 +7,8 @@ export default function Navbar() {
         <div className={styles.navbar}>
             <img className={styles.img} src={icone_principal} alt="logo"/>
             <ul className={styles.list}>
-                <li className={styles.item}><Link to="/">Home</Link></li>
-                <li className={styles.item}><Link to="/abautme">Abaut Me</Link></li>
+                <li className={styles.item}><Link to="/">Abaut Me</Link></li>
                 <li className={styles.item}><Link to="/projects">Projects</Link></li>
-                <li className={styles.item}><Link to="/experiences">Experiences</Link></li>
             </ul>    
         </div>
     )

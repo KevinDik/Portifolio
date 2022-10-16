@@ -1,0 +1,26 @@
+.card {
+    color: #fff;
+    font-size: 0.9 em;
+    font-family: 'Silkscreen', cursive;
+}
+
+.card h1 {
+    text-align: center;
+}
+
+.card ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.card ul li {
+    color: #cca400;
+    border: 1px solid #c6c6c6;
+    padding: 20px;
+    margin: 20px;
+}
+
+.card ul li span {
+    color: #fff;
+    font-size: 0.8em;
+}

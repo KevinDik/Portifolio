@@ -1,9 +1,9 @@
 .app {
   background-image: url('./img/background.jpg');
-  background-color: #222;
+  background-color: #111;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-blend-mode: overlay;
   margin: 0;
   padding: 0;

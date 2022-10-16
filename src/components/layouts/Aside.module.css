@@ -4,13 +4,35 @@
 
 .aside ul {
     list-style-type: none; 
+    display: flex;
+    flex-direction: column
+}
+
+.aside h2 {
+    text-align: center;
 }
 
 .aside ul li {
     font-size: 1em;
 }
 
+.aside ul h3 {
+    font-size: 1em;
+    font-weight: bold;
+    color: #cca400;
+}
+
+.aside ul h4 {
+    font-size: 0.8em;
+}
+
+.aside ul p {
+    font-size: 1.2em;
+    font-family: monospace;
+}
+
 .aside ul li span {
     color: #cca400;
-    font-size: 0.9em; 
+    font-size: 1.2em; 
+    font-family: monospace;
 }
