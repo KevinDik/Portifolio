@@ -1,21 +1,23 @@
 .home {
     text-align: center;
-    transition: 0.5s;
 }
 
 .home h1 {    
     color: white;
     font-family: 'Silkscreen', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
 
 }
 
 .home img {
     max-width:100%;
 	height:auto;
+    border-radius: 5px;
+    border: 1px solid #c6c6c6;
+    margin: 10px;
 }
 
 .home div {
-    border: 2px solid red;
     display: block;
 }
+

@@ -6,15 +6,13 @@ export default function Header() {
         <header className={styles.header}>
             <div>
                 <img src={personagem} alt="Personagem"/>
-                <h2>Nome do personagem</h2>
+                <h2>Nome <span>Kevin Sousa</span></h2>
+                <p>Meu objetivo é me tornar um desenvolvedor Full Stack aplicando todos meus conhecimentos para produção de um código mais simples de entendimento rápido e aprender de uma forma eficiente.</p>
             </div>
             <ul>
-                <li>Classe</li>
-                <li>Raça</li>
-                <li>Antecedente</li>
-                <li>Alinhamento</li>
-                <li>Nome do jogador</li>
-                <li>Experiência</li>
+                <li>Classe: <span>Tecnomago</span></li>
+                <li>Raça: <span>Humano</span></li>
+                <li>Antecedente: <span>Sábio</span></li>
             </ul>
         </header>
     )

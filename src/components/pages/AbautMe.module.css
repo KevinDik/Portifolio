@@ -1,8 +1,7 @@
-.abautme h2,
-.abautme ul {
-    color: white;
-    font-family: 'Silkscreen', sans-serif;
-    font-size: 0.8em;
+.abautme {
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Silkscreen', cursive;
 }
 
 .columns {

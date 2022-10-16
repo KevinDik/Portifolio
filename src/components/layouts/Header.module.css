@@ -1,29 +1,47 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 0.05em solid;
-    border-color: #CCA374;
-}
-
-.header ul {
-    list-style: none;
-    columns: 3;
-}
-
-.header ul li {
-    padding: 10px;
-    text-align: center;
-    border: 1.5em solid;
-    border-image: url("../../img/borders/borda_status.png") 25%;
-}
-
-.header div h2 {
-    text-align: center;
-    border: 1.5em solid;
-    border-image: url("../../img/borders/borda_nome.png") 25%;
+    border-bottom: 1px solid #c6c6c6;
+    margin: 0 30px;
 }
 
 .header img {
-    width: 8em;
-    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+    border: 3px solid #cca374;
+    border-radius: 50px;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.header ul {
+    list-style-type: none;
+    columns: 3;
+    display: flex;
+}
+
+.header ul li {
+    font-size: 1em;
+    margin-right: 20px;
+}
+
+.header p {
+    font-size: 0.9em;
+    border: 1px solid #cca400;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.header h2 {
+    font-size: 1.3em;
+    margin: 20px;
+    text-align: center;
+}
+
+.header span {
+    color: #cca400;
+    font-size: 0.9em;
 }

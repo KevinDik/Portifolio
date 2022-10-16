@@ -1,10 +1,16 @@
-.aside ul {
-    list-style: none;
+.aside {
+    background-color: transparent;
 }
 
-.aside ul li{
-    padding: 5px;
-    text-align: center;
-    border: 1.5em solid;
-    border-image: url("../../img/borders/borda_status.png") 25%;
+.aside ul {
+    list-style-type: none; 
+}
+
+.aside ul li {
+    font-size: 1em;
+}
+
+.aside ul li span {
+    color: #cca400;
+    font-size: 0.9em; 
 }
