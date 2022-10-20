@@ -1,0 +1,28 @@
+.contato{
+    color: #fff;
+}
+
+.contato ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+}
+
+.contato ul li {
+    background-color: rgba(255, 255, 255, 0.001);
+    padding: 10px;
+    margin: 5px;
+}
+
+.contato ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+    padding: 10px;
+    border-radius: 60px;
+    border: 2px solid #02d08f;
+}
+
+.social_list {
+    border: 1px solid #fff;
+}

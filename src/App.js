@@ -2,8 +2,8 @@ import {Routes, Route, BrowserRouter as Router } from 'react-router-dom'
 import Navbar from './components/layouts/Navbar'
 import Projects from './components/pages/Projects'
 import AbautMe from './components/pages/AbautMe'
+import Contacts from './components/pages/Contacts'
 import styles from './App.module.css'
-import Footer from './components/layouts/Footer'
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
           <Routes>
             <Route path="/" element={<AbautMe/>}/>
             <Route path="/projects" element={<Projects/>}/>
+            <Route path="/Contacts" element={<Contacts/>}/>
           </Routes>
-        <Footer/>
       </Router> 
     </div> 
   )

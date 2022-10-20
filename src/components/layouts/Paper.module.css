@@ -1,10 +1,6 @@
-.columns {
-    columns: 3;
-}
-
 .paper {
-    background-color: rgba(255, 255, 255, 0.09);
     margin: 30px;
+    background-color: #ccc;
 }
 
 @-webkit-keyframes fadeIn {
