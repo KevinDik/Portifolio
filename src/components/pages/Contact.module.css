@@ -2,27 +2,54 @@
     color: #fff;
 }
 
+.contato h1 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+}
+
+.contato h2 {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+}
+
 .contato ul {
     list-style: none;
-    align-items: center;
-    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .contato ul li {
-    background-color: rgba(255, 255, 255, 0.001);
-    padding: 10px;
+    padding: 8px;
     margin: 5px;
 }
 
 .contato ul li a{
     text-decoration: none;
     color: #fff;
-    transition: 0.5s;
-    padding: 10px;
-    border-radius: 60px;
-    border: 2px solid #02d08f;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
 }
 
-.social_list {
-    border: 1px solid #fff;
+.instagram {
+    background-color: #b120a2;
+}
+
+.whatsapp {
+    background-color: #5CCC45;
+}
+
+.linkedn {
+    background-color: #1d87bd;
+}
+
+.discord {
+    background-color: #504ACC;
+}
+
+.github {
+    background-color: #545454;
 }

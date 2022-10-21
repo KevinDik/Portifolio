@@ -1,0 +1,19 @@
+.abautme {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.abautme h1 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+}
+
+.abautme p {
+    font-size: 14px;
+    text-indent: 2ch;
+}
+
+.abautme p strong {
+    color: #5CCC45;
+}

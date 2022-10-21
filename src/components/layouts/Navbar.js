@@ -6,6 +6,7 @@ export default function Navbar() {
     return (
         <div className={styles.navbar}>
             <img className={styles.img} src={person} alt="Minha foto"/>
+            <h2>Full Stack Developer</h2>
             <ul className={styles.list}>
                 <li className={styles.item}><Link to="/">Abaut Me</Link></li>
                 <li className={styles.item}><Link to="/projects">Projects</Link></li>
