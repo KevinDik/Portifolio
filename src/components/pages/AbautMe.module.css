@@ -1,12 +1,14 @@
 .abautme {
     padding: 20px;
+    justify-content: center;
     overflow: hidden;
 }
 
-.abautme h1 {
+.abautme h2 {
     font-size: 20px;
     text-align: center;
     font-family: 'Silkscreen', cursive;
+    text-shadow: 2px 2px #5CCC45;
 }
 
 .abautme p {
@@ -16,4 +18,10 @@
 
 .abautme p strong {
     color: #5CCC45;
+}
+
+.descricao {
+    overflow-y: auto;
+    padding-right: 5px;
+    max-height: 300px;
 }

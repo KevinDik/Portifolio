@@ -1,0 +1,30 @@
+.projects { 
+    columns: 2;
+    align-items: center;
+    display: inline;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.descricao {
+    overflow-y: auto;
+    padding-right: 5px;
+    max-height: 600px;
+}
+
+.projects section { 
+    margin: 10px;
+    border: 1px solid;
+}
+
+.projects h2 {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    text-shadow: 2px 2px #5CCC45;
+}
+
+.projects h3 p{
+    text-align: center;
+    font-family: monospace;
+}

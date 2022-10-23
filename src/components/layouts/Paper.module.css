@@ -1,8 +1,8 @@
 .paper {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin:10px 30px 0px 30px;
     background-color: rgba(255, 255, 255, 0.1);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    border: 1px solid rgba(80, 74, 204, 0.6);
 }
 

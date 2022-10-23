@@ -1,12 +1,13 @@
 .navbar {
     display: block;
-    padding-top: 20px;
+    padding-top: 120px;
     text-align: center;
 }
 
-.navbar h2 {
+.navbar h1 {
     color: #6F6E85;
     font-family: monospace;
+    text-shadow: 1px 1px #504ACC;
 }
 
 .navbar ul {
