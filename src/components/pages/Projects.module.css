@@ -13,8 +13,9 @@
 }
 
 .projects section { 
-    margin: 10px;
+    margin: 30px;
     border: 1px solid;
+    padding-left: 5px;
 }
 
 .projects h2 {
@@ -27,4 +28,27 @@
 .projects h3 p{
     text-align: center;
     font-family: monospace;
+}
+
+.projects img { 
+    width: auto;
+    height: 200px;
+    padding: 5px;
+    display: block;
+}
+
+.projects a {
+    text-decoration: none;
+    color: white;
+    background-color: #504ACC;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: 0.5s;
+}
+
+.projects a:hover {
+    border-radius: 15px;
 }
