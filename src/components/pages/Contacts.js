@@ -13,7 +13,7 @@ export default function Contacts() {
                         <li><a className={styles.github}href="https://github.com/KevinDik" rel="_blank"><FaGithub/>GitHub</a></li>
                         <li><a className={styles.discord}href="https://discord.gg/974caehh" rel="_blank"><FaDiscord/>Discord</a></li>
                         <li><a className={styles.linkedn}href="https://www.linkedin.com/in/kevin-diego-78a67b171/"rel="_blank"><FaLinkedin/>Linkedn</a></li>
-                        <li><a className={styles.whatsapp}href="https://api.whatsapp.com/send?phone=5585999289198" rel="_blank"><FaWhatsapp/>Whatsapp</a></li>
+                        <li><a className={styles.whatsapp}href="https://api.whatsapp.com/send?phone=5585999287198" rel="_blank"><FaWhatsapp/>Whatsapp</a></li>
                     </ul>
             </div>
         </Paper>
