@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom';
 import styles from './Navbar.module.css'
-import person from "../../img/person.jpg";
+import person from "../../img/person.jpeg";
 
 export default function Navbar() {
     return (
@@ -8,9 +8,9 @@ export default function Navbar() {
             <img className={styles.img} src={person} alt="Minha foto"/>
             <h1>Full Stack Developer</h1>
             <ul className={styles.list}>
-                <li className={styles.item}><Link to="/">Abaut Me</Link></li>
+                <li className={styles.item}><Link to="/">About Me</Link></li>
                 <li className={styles.item}><Link to="/projects">Projects</Link></li>
-                <li className={styles.item}><Link to="/contacts">Contacts</Link></li>
+                <li className={styles.item}><Link to="/contacts">Contact</Link></li>
             </ul>    
         </div>
     )

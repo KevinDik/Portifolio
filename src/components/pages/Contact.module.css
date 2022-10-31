@@ -33,24 +33,49 @@
     display: block;
     text-align: center;
     border-radius: 5px;
+    transition: 0.5s;
+}
+
+.contato ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.01);
 }
 
 .instagram {
     background-color: #b120a2;
 }
 
+.instagram:hover {
+    color: #b120a2
+}
+
 .whatsapp {
     background-color: #5CCC45;
+}
+
+.whatsapp:hover {
+    color: #5CCC45;
 }
 
 .linkedn {
     background-color: #1d87bd;
 }
 
+.linkedn:hover {
+    color: #1d87bd;
+}
+
 .discord {
     background-color: #504ACC;
 }
 
+.discord:hover {
+    color: #504ACC;
+}
+
 .github {
     background-color: #545454;
+}
+
+.github:hover {
+    color: #545454;
 }

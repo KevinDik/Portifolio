@@ -1,10 +1,10 @@
-import styles from "./AbautMe.module.css"
+import styles from "./AboutMe.module.css"
 import Paper from "../layouts/Paper"
 
-export default function AbautMe() {
+export default function AboutMe() {
     return (
         <Paper>
-            <div className={styles.abautme}>
+            <div className={styles.aboutme}>
                 <h2>Sobre mim</h2>
                 <div className={styles.descricao}>
                     <p>Olá! Me Chamo Kevin Sousa, seja bem vindo(a)! Nativo de Fortaleza-CE, gosto de descobrir coisas novas e me aventurar nelas.</p>
@@ -12,6 +12,7 @@ export default function AbautMe() {
                     <p>Estudante de programação desde <strong>2017</strong>, tive oportunidade de conhecer muitas linguagens, softwares, frameworks e aplicações nas quais fiz uso para auxiliar em minhas atividades diárias. Hoje me mantenho focado estudando os conceitos de fullstack, usando as linguagens <strong>Html</strong>, <strong>CSS</strong>, e <strong>Javascript</strong>.</p>
                     <p>Possuo conhecimento em automação de tarefas e analise de dados utilizando <strong>python</strong>, e estudo, <strong>C#</strong> para desenvolvimento de sistemas.</p>
                 </div>
+                
             </div>
         </Paper>
         )

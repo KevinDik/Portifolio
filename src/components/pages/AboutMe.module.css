@@ -1,22 +1,22 @@
-.abautme {
+.aboutme {
     padding: 20px;
     justify-content: center;
     overflow: hidden;
 }
 
-.abautme h2 {
+.aboutme h2 {
     font-size: 20px;
     text-align: center;
     font-family: 'Silkscreen', cursive;
     text-shadow: 2px 2px #5CCC45;
 }
 
-.abautme p {
+.aboutme p {
     font-size: 14px;
     text-indent: 2ch;
 }
 
-.abautme p strong {
+.aboutme p strong {
     color: #5CCC45;
 }
 
