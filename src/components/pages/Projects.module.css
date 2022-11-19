@@ -1,7 +1,5 @@
 .projects { 
-    columns: 2;
     align-items: center;
-    display: inline;
     justify-content: center;
     overflow: hidden;
 }
@@ -9,7 +7,7 @@
 .descricao {
     overflow-y: auto;
     padding-right: 5px;
-    max-height: 600px;
+    max-height: 400px;
 }
 
 .projects section { 
@@ -22,7 +20,7 @@
     font-size: 16px;
     text-align: center;
     font-family: 'Silkscreen', cursive;
-    text-shadow: 2px 2px #5CCC45;
+    text-shadow: 2px 2px #0c0c0ca9;
 }
 
 .projects h3 p{

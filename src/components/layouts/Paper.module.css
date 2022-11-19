@@ -1,8 +1,11 @@
 .paper {
-    margin:10px 30px 0px 30px;
-    background-color: rgba(255, 255, 255, 0.1);
+    margin:0 30px 0 30px;
+    background-color: var(--bg-color);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border: 1px solid rgba(80, 74, 204, 0.6);
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.288);
+    box-sizing: border-box;
+    height: 40%;
 }
 

@@ -1,7 +1,7 @@
 <h1 align="center"> Portifólio Dev</h1>
 
 <p align="center">
-Aplicação web que ficara responsável por apresentar os melhores projetos criados ao longo de minha carreira.
+Aplicação web que ficará responsável por apresentar os melhores projetos criados ao longo de minha carreira.
 </p>
 
 <p align="center">

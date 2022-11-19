@@ -5,7 +5,7 @@ import Paper from '../layouts/Paper'
 export default function Contacts() {
     return (
         <Paper>
-            <div className={styles.contato}>
+            <section className={styles.contato}>
                 <h1>Posso te ajudar em algo?</h1>
                 <h2>Mantenha contato!</h2>
                 <ul>
@@ -15,7 +15,7 @@ export default function Contacts() {
                         <li><a className={styles.linkedn}href="https://www.linkedin.com/in/kevin-diego-78a67b171/"><FaLinkedin/>Linkedn</a></li>
                         <li><a className={styles.whatsapp}href="https://api.whatsapp.com/send?phone=5585999289198" ><FaWhatsapp/>Whatsapp</a></li>
                     </ul>
-            </div>
+            </section>
         </Paper>
     )
 }

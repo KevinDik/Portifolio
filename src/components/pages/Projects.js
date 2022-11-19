@@ -5,7 +5,7 @@ import { FaHtml5, FaCss3, FaJs} from 'react-icons/fa'
 export default function Projects () {
     return (
         <Paper>
-            <div className={styles.projects}>
+            <section className={styles.projects}>
                 <div className={styles.descricao}>
                     <section>
                         <h2>Gerenciador de projetos</h2>
@@ -26,7 +26,7 @@ export default function Projects () {
                         <p>Aplicação mobile que realiza o calculo do índice de massa corporal com base na altura e seu peso.</p>
                     </section>
                 </div>
-            </div>
+            </section>
         </Paper>
     )
 }

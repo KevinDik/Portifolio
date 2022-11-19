@@ -4,7 +4,7 @@ import person from "../../img/person.jpeg";
 
 export default function Navbar() {
     return (
-        <div className={styles.navbar}>
+        <nav className={styles.navbar}>
             <img className={styles.img} src={person} alt="Minha foto"/>
             <h1>Full Stack Developer</h1>
             <ul className={styles.list}>
@@ -12,6 +12,6 @@ export default function Navbar() {
                 <li className={styles.item}><Link to="/projects">Projects</Link></li>
                 <li className={styles.item}><Link to="/contacts">Contact</Link></li>
             </ul>    
-        </div>
+        </nav>
     )
 }

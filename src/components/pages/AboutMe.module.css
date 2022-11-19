@@ -1,6 +1,5 @@
 .aboutme {
     padding: 20px;
-    justify-content: center;
     overflow: hidden;
 }
 
@@ -8,7 +7,7 @@
     font-size: 20px;
     text-align: center;
     font-family: 'Silkscreen', cursive;
-    text-shadow: 2px 2px #5CCC45;
+    text-shadow: 2px 2px #000000d2;
 }
 
 .aboutme p {
@@ -24,4 +23,13 @@
     overflow-y: auto;
     padding-right: 5px;
     max-height: 300px;
+}
+
+.badges {
+    width: 40px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding-bottom: 20px;
 }
